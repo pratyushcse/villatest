@@ -24,9 +24,9 @@ function ParallaxRooms() {
         <div className="room1">
           <div className="rooms_inlinetext">
             <div>
-              <h3 className="room_name">Duplex Room</h3>
+              <h3 className="room_name">1 BHK Room</h3>
               <h3 className="price">
-              ₹5000 <span className="per_night">/Per day</span>
+              ₹3000 <span className="per_night">/Per day</span>
               </h3>
             </div>
             <table className="table">
@@ -48,13 +48,16 @@ function ParallaxRooms() {
               </tbody>
             </table>
             <a
-              className="details"
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Contact Now
-            </a>
+  className="details"
+  href="tel:+918105280757"
+  onClick={(e) => {
+    window.location.href = "tel:+918105280757";
+  }}
+>
+  Contact Now
+</a>
+
+           
           </div>
         </div>
         <div className="room2">
@@ -84,13 +87,15 @@ function ParallaxRooms() {
               </tbody>
             </table>
             <a
-              className="details"
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Contact Now
-            </a>
+  className="details"
+  href="tel:+918105280757"
+  onClick={(e) => {
+    window.location.href = "tel:+918105280757";
+  }}
+>
+  Contact Now
+</a>
+
           </div>
         </div>
       </section>
