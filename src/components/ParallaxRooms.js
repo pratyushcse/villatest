@@ -33,7 +33,7 @@ function ParallaxRooms() {
               <tbody>
                 <tr>
                   <td className="td capacity">Capacity:</td>
-                  <td className="td">Max 15 persons</td>
+                  <td className="td">Max 2 persons</td>
                 </tr>
                 <tr>
                   <td className="td bed">Bed:</td>
@@ -42,7 +42,7 @@ function ParallaxRooms() {
                 <tr>
                   <td className="td services">Services:</td>
                   <td className="td td_wifi">
-                  Wi-Fi, TV, Fridge, Fully Furnished With 2 Bathrooms
+                  Wi-Fi, TV, Fridge, Fully Furnished With 1 Bathroom
                   </td>
                 </tr>
               </tbody>
@@ -65,19 +65,19 @@ function ParallaxRooms() {
            
           </div>
         </div>
-        <div className="room2">
+        <div className="room3">
           <div className="rooms_inlinetext">
             <div>
-              <h3 className="room_name">2 BHK Room</h3>
+              <h3 className="room_name">2 BHK Villa</h3>
               <h3 className="price">
-              ₹5000<span className="per_night">/Per day</span>
+              ₹3000<span className="per_night">/Per day</span>
               </h3>
             </div>
             <table className="table">
               <tbody>
                 <tr>
                   <td className="td capacity">Capacity:</td>
-                  <td className="td">Max 15 persons</td>
+                  <td className="td">Max 6 persons (An additional charge applies for an extra bed.)</td>
                 </tr>
                 <tr>
                   <td className="td bed">Bed:</td>
@@ -109,6 +109,51 @@ function ParallaxRooms() {
 
           </div>
         </div>
+        <div className="room2">
+          <div className="rooms_inlinetext">
+            <div>
+              <h3 className="room_name">2 BHK Villa</h3>
+              <h3 className="price">
+              ₹5000<span className="per_night">/Per day</span>
+              </h3>
+            </div>
+            <table className="table">
+              <tbody>
+                <tr>
+                  <td className="td capacity">Capacity:</td>
+                  <td className="td">Max 8 persons (An additional charge applies for an extra bed.)</td>
+                </tr>
+                <tr>
+                  <td className="td bed">Bed:</td>
+                  <td className="td">1 King Size, 1 Queen Size</td>
+                </tr>
+                <tr>
+                  <td className="td services">Services:</td>
+                  <td className="td td_wifi">
+                  Wi-Fi, TV, Fridge, Fully Furnished With 2 Bathrooms
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <a
+  className="details"
+  href="tel:+918105280757"
+  onClick={(e) => {
+    if (window.innerWidth > 768) {
+      e.preventDefault();
+      alert("Call us at +91 8105280757");
+    } else {
+      window.location.href = "tel:+918105280757";
+    }
+  }}
+>
+  Contact Now
+</a>
+
+
+          </div>
+        </div>
+        
       </section>
     </>
   );

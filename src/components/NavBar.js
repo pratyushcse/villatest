@@ -60,7 +60,7 @@ function NavBar() {
             </div>
             <div className="mobile-social">
               <a
-                href="#"
+                href="https://www.facebook.com/share/1AGHmJe4NE/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -73,13 +73,7 @@ function NavBar() {
               >
                 <FontAwesomeIcon icon={faInstagram} className="icon-social" />
               </a>
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faXTwitter} className="icon-social" />
-              </a>
+              
               
             </div>
             <div className="mobile-contact">
@@ -120,7 +114,7 @@ function NavBar() {
         <div className="nav-right">
           <div className="social">
             <a
-              href="#"
+              href="https://www.facebook.com/share/1AGHmJe4NE/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -133,13 +127,7 @@ function NavBar() {
             >
               <FontAwesomeIcon icon={faInstagram} className="icon-social" />
             </a>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faXTwitter} className="icon-social" />
-            </a>
+            
             
               
           </div>

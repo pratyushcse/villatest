@@ -109,6 +109,13 @@
     ),
     url(../images/2BHK.jpeg);
   }
+  .room3{
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 0.767)
+    ),
+    url(../images/room3.jpeg);
+  }
   
   
   

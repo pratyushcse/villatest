@@ -26,7 +26,7 @@ function Footer() {
         <img className="logo-image" src={logo} alt="Company Logo" />
         <p>Where Luxury Meets the Ocean Breeze</p>
         <div className="social-icons">
-          <a href="#" className="social-icon">
+          <a href="https://www.facebook.com/share/1AGHmJe4NE/?mibextid=wwXIfr" className="social-icon">
             <RiFacebookFill />
           </a>
           <a href="https://www.instagram.com/adithya_beach_villa_suratkal?igsh=MTZhaGR3bHpjeHN5OQ==" className="social-icon">
