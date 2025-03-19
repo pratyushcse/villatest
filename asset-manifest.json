@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/villatest/static/css/main.1794225f.css",
+    "main.js": "/villatest/static/js/main.168fbbb9.js",
+    "static/js/453.aa5b7d9d.chunk.js": "/villatest/static/js/453.aa5b7d9d.chunk.js",
+    "static/media/House 1.jpeg": "/villatest/static/media/House 1.2b62ecc19987b92c1ae1.jpeg",
+    "static/media/about-us-photo-2.jpeg": "/villatest/static/media/about-us-photo-2.2b62ecc19987b92c1ae1.jpeg",
+    "static/media/House 3.jpeg": "/villatest/static/media/House 3.ad15ae79434018af4e30.jpeg",
+    "static/media/about-us-photo-1.jpeg": "/villatest/static/media/about-us-photo-1.ad15ae79434018af4e30.jpeg",
+    "static/media/Hallway.jpeg": "/villatest/static/media/Hallway.5ccc5342f0aaa9b6bb4e.jpeg",
+    "static/media/House 2.jpeg": "/villatest/static/media/House 2.2eadd035f8e90b4ae0cc.jpeg",
+    "static/media/2BHK.jpeg": "/villatest/static/media/2BHK.20a692aca88ab94c1afb.jpeg",
+    "static/media/Room 2.jpeg": "/villatest/static/media/Room 2.20a692aca88ab94c1afb.jpeg",
+    "static/media/Room 1.jpeg": "/villatest/static/media/Room 1.a25bc8328cad21794636.jpeg",
+    "static/media/1BHK.jpeg": "/villatest/static/media/1BHK.0a3a94d23db4c8262a61.jpeg",
+    "static/media/hintergrund-banner1.webp": "/villatest/static/media/hintergrund-banner1.29788150b9f5f1c37209.webp",
+    "static/media/slider2.jpg": "/villatest/static/media/slider2.086d92226c565d4f8af5.jpg",
+    "static/media/slider4.jpg": "/villatest/static/media/slider4.2e85e45f07afa6d311ea.jpg",
+    "static/media/logo.png": "/villatest/static/media/logo.36d8c455e0c072234177.png",
+    "static/media/slider1.jpg": "/villatest/static/media/slider1.a7f0b39bda2faddf4f57.jpg",
+    "static/media/slider3.jpg": "/villatest/static/media/slider3.ef050e7e8031a9f882a4.jpg",
+    "index.html": "/villatest/index.html",
+    "main.1794225f.css.map": "/villatest/static/css/main.1794225f.css.map",
+    "main.168fbbb9.js.map": "/villatest/static/js/main.168fbbb9.js.map",
+    "453.aa5b7d9d.chunk.js.map": "/villatest/static/js/453.aa5b7d9d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1794225f.css",
+    "static/js/main.168fbbb9.js"
+  ]
+}
