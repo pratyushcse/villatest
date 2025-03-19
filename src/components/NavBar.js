@@ -13,7 +13,7 @@ import {
   faFacebookF,
   faInstagram,
   faXTwitter,
-  faYoutube,
+
 } from "@fortawesome/free-brands-svg-icons";
 
 function NavBar() {
@@ -80,13 +80,7 @@ function NavBar() {
               >
                 <FontAwesomeIcon icon={faXTwitter} className="icon-social" />
               </a>
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faYoutube} className="icon-social" />
-              </a>
+              
             </div>
             <div className="mobile-contact">
             <div className="mobile-tel">
@@ -146,13 +140,8 @@ function NavBar() {
             >
               <FontAwesomeIcon icon={faXTwitter} className="icon-social" />
             </a>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faYoutube} className="icon-social" />
-            </a>
+            
+              
           </div>
           <div className="location">
             <i>

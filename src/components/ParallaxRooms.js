@@ -51,7 +51,12 @@ function ParallaxRooms() {
   className="details"
   href="tel:+918105280757"
   onClick={(e) => {
-    window.location.href = "tel:+918105280757";
+    if (window.innerWidth > 768) { // Assuming desktop screens are wider than 768px
+      e.preventDefault();
+      alert("Call us at +91 8105280757");
+    } else {
+      window.location.href = "tel:+918105280757";
+    }
   }}
 >
   Contact Now
@@ -90,11 +95,17 @@ function ParallaxRooms() {
   className="details"
   href="tel:+918105280757"
   onClick={(e) => {
-    window.location.href = "tel:+918105280757";
+    if (window.innerWidth > 768) {
+      e.preventDefault();
+      alert("Call us at +91 8105280757");
+    } else {
+      window.location.href = "tel:+918105280757";
+    }
   }}
 >
   Contact Now
 </a>
+
 
           </div>
         </div>
